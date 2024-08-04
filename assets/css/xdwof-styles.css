@@ -1,0 +1,93 @@
+/* CSS styles for the wholesale order form and discount table */
+
+.xdwof-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.xdwof-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* Right-align the table cells from column 4 to n-1 */
+.xdwof-table td:nth-child(n+4):nth-child(-n+11) {
+    text-align: right;
+}
+
+/* Style for smaller header text within th elements */
+.header-small {
+    font-size: 0.8em; /* Smaller text size for minimum order details */
+}
+
+.wholesale-discounted-price del {
+    color: #999;
+    margin-right: 10px;
+}
+
+.wholesale-discounted-price strong {
+    color: #d9534f;
+}
+
+.xdwof-table th, .xdwof-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.xdwof-table th {
+    background-color: #f2f2f2;
+}
+
+.xdwof-table th.header-small {
+    font-size: 0.8em;
+}
+
+.wholesale-percentage-discount {
+    font-weight: bold;
+    color: #e53935;
+}
+
+.total-order-amount {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+#discount-message {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+#add-all-to-cart {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #0073aa;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+#add-all-to-cart:hover {
+    background-color: #005f8c;
+}
+
+/* Styles for the total order table */
+.total-order-table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.total-order-table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: right;
+}
+
+.total-order-table td:first-child {
+    text-align: left;
+}
